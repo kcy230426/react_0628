@@ -1,0 +1,37 @@
+/* css 명에 module이 들어있어서인지 부트스트랩보다 우선순위가 높아지는듯...? */
+/* 문자(공백 포함)랑 상수를 같이 쓰려면 백틱 사용... */
+/* <div className={`${banner.container} ${banner.bold}`}> */
+
+.container{
+    width: 100%;
+    height: 50px;
+    margin: 0 auto;
+    /* text-align: center; */
+}
+
+.h{
+    height: inherit;
+}
+
+.lsize{
+    height: 40px;
+}
+
+.wrap{
+    width: 80vw;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin: 0 auto;
+    padding: 10px 0;
+    background-color: rgb(255, 255, 255);
+}
+
+.lnone{
+    display: none;
+}
+
+.px{
+    padding-left: 20px;
+    padding-right: 20px;
+}

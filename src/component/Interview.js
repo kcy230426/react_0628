@@ -1,9 +1,12 @@
 import React from 'react'
+import interview from '../scss/interview.module.css'
 
 export default function Interview(props) {
   return (
     <>
-        인터뷰입니다
+        <div className={interview.container}>
+          인터뷰입니다  
+        </div>
     </>
   )
 }

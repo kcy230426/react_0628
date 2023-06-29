@@ -3,6 +3,7 @@ import Banner from '../component/Banner'
 import Contact from '../component/Contact'
 import Interview from '../component/Interview'
 import Portfolio from '../component/Portfolio'
+import contact from '../scss/contact.module.css'
 
 export default function Content() {
   return (
